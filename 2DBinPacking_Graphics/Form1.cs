@@ -173,40 +173,40 @@ namespace _2DBinPacking_Graphics
             g.Clear(Color.WhiteSmoke);
             List<Rect> rects = Shuffle(list);
             List<Rect> place = new List<Rect>();
-            place.Add(new Rect(18, 0, 0, 175, 47));
-            place.Add(new Rect(17, 175, 0, 175, 62));
-            place.Add(new Rect(22, 350, 0, 77, 195));
-            place.Add(new Rect(11, 427, 0, 50, 92));
-            place.Add(new Rect(21, 0, 47, 77, 127));
-            place.Add(new Rect(26, 427, 92, 50, 149));
-            place.Add(new Rect(1, 0, 174, 201, 38));
-            place.Add(new Rect(9, 0, 212, 124, 86));
-            place.Add(new Rect(2, 124, 212, 201, 48));
-            place.Add(new Rect(23, 325, 195, 57, 322));
-            place.Add(new Rect(12, 382, 241, 74, 92));
-            place.Add(new Rect(32, 477, 0, 16, 500));
-            place.Add(new Rect(30, 382, 333, 43, 258));
-            place.Add(new Rect(28, 425, 333, 26, 172));
-            place.Add(new Rect(6, 0, 298, 131, 60));
-            place.Add(new Rect(10, 0, 358, 124, 46));
-            place.Add(new Rect(29, 451, 500, 43, 242));
-            place.Add(new Rect(20, 0, 404, 117, 69));
-            place.Add(new Rect(13, 0, 473, 31, 77));
-            place.Add(new Rect(5, 0, 550, 131, 63));
-            place.Add(new Rect(31, 0, 613, 15, 500));
-            place.Add(new Rect(16, 15, 613, 23, 224));
-            place.Add(new Rect(15, 38, 613, 23, 224));
-            place.Add(new Rect(24, 61, 613, 41, 322));
-            place.Add(new Rect(4, 102, 613, 107, 67));
-            place.Add(new Rect(14, 102, 680, 31, 147));
-            place.Add(new Rect(7, 133, 680, 39, 123));
-            place.Add(new Rect(27, 172, 680, 24, 172));
-            place.Add(new Rect(19, 196, 680, 58, 69));
-            place.Add(new Rect(8, 131, 260, 31, 123));
-            place.Add(new Rect(25, 162, 260, 50, 179));
-            place.Add(new Rect(3, 117, 439, 94, 67));
+            //place.Add(new Rect(18, 0, 0, 175, 47));
+            //place.Add(new Rect(17, 175, 0, 175, 62));
+            //place.Add(new Rect(22, 350, 0, 77, 195));
+            //place.Add(new Rect(11, 427, 0, 50, 92));
+            //place.Add(new Rect(21, 0, 47, 77, 127));
+            //place.Add(new Rect(26, 427, 92, 50, 149));
+            //place.Add(new Rect(1, 0, 174, 201, 38));
+            //place.Add(new Rect(9, 0, 212, 124, 86));
+            //place.Add(new Rect(2, 124, 212, 201, 48));
+            //place.Add(new Rect(23, 325, 195, 57, 322));
+            //place.Add(new Rect(12, 382, 241, 74, 92));
+            //place.Add(new Rect(32, 477, 0, 16, 500));
+            //place.Add(new Rect(30, 382, 333, 43, 258));
+            //place.Add(new Rect(28, 425, 333, 26, 172));
+            //place.Add(new Rect(6, 0, 298, 131, 60));
+            //place.Add(new Rect(10, 0, 358, 124, 46));
+            //place.Add(new Rect(29, 451, 500, 43, 242));
+            //place.Add(new Rect(20, 0, 404, 117, 69));
+            //place.Add(new Rect(13, 0, 473, 31, 77));
+            //place.Add(new Rect(5, 0, 550, 131, 63));
+            //place.Add(new Rect(31, 0, 613, 15, 500));
+            //place.Add(new Rect(16, 15, 613, 23, 224));
+            //place.Add(new Rect(15, 38, 613, 23, 224));
+            //place.Add(new Rect(24, 61, 613, 41, 322));
+            //place.Add(new Rect(4, 102, 613, 107, 67));
+            //place.Add(new Rect(14, 102, 680, 31, 147));
+            //place.Add(new Rect(7, 133, 680, 39, 123));
+            //place.Add(new Rect(27, 172, 680, 24, 172));
+            //place.Add(new Rect(19, 196, 680, 58, 69));
+            //place.Add(new Rect(8, 131, 260, 31, 123));
+            //place.Add(new Rect(25, 162, 260, 50, 179));
+            //place.Add(new Rect(3, 117, 439, 94, 67));
 
-            //place = Placement(rects, place);
+            place = Placement(rects, place);
             int h = place.Max(val => val.Y + val.Height);
             label1.Visible = true;
             label1.Text = "放置順序: \n";
@@ -237,6 +237,8 @@ namespace _2DBinPacking_Graphics
 
             g.Dispose();
         }
+
+       
     }
 }
 
