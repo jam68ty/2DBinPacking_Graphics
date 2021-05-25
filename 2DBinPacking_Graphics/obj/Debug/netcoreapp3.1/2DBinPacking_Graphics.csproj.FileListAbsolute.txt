@@ -1,0 +1,15 @@
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.csprojAssemblyReference.cache
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\_2DBinPacking_Graphics.Form1.resources
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.csproj.GenerateResource.cache
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.AssemblyInfoInputs.cache
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.AssemblyInfo.cs
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.csproj.CoreCompileInputs.cache
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.exe
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.deps.json
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.runtimeconfig.json
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.runtimeconfig.dev.json
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.dll
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\bin\Debug\netcoreapp3.1\2DBinPacking_Graphics.pdb
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.dll
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.pdb
+C:\Users\jam68ty\source\repos\2DBinPacking_Graphics\2DBinPacking_Graphics\obj\Debug\netcoreapp3.1\2DBinPacking_Graphics.genruntimeconfig.cache
